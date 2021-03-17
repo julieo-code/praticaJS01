@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="cabecalho">
+        <a href="">Suporte</a>
+    </header>
+    <form action="http://localhost:3000" method="POST" id="conteudo">
+        <div>
+            <h1>LogoTipo</h1>
+            <p><input type="text" name="nome" class="cadastro" placeholder="Login:"></p>
+            <p><input type="password" name="senha" class="cadastro" placeholder="Senha:"></p>
+            <p><input type="password" name="confirmacao" class="cadastro" placeholder="Confirme sua senha:"></p>
+            <p><input type="text" name="trabalho" class="cadastro" placeholder="Qual a sua área de trabalho ?"></p>
+        </div>
+
+        <div class="sexo">
+            <h2>Sexo: </h2>
+            <label for="msexo">Masculino</label><input type="radio" name="sexo" id="msexo" value="M">
+            <label for="fsexo">Feminino</label><input type="radio" name="sexo" id="fsexo" value="F">
+        </div>
+
+        <div class="sexo">
+            <h2>Sou:</h2>
+            <label for="empregado">Empregado</label><input type="radio" name="tipo" id="empregado" value="empregado">
+            <label for="empregador">Empregador</label><input type="radio" name="tipo" id="empregador" value="empregador">
+        </div>
+        <div>
+            <p><input type="submit" value="Enviar" id="submit"></p>
+        </div>
+    </form>
+
+    <div id="iphone">
+        <img src="cadastroIphone11.png" alt="Site no dispositivo móvel" id="img1">
+        <img src="homePageIphone11.png" id="img2">
+    </div>
+    <script src="index.js">
+
+    </script>
+</body>
+</html>

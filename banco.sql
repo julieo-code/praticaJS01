@@ -1,0 +1,9 @@
+CREATE TABLE pessoa (
+    id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+    nome VARCHAR(45) NOT NULL,
+    senha VARCHAR(40) NOT NULL,
+    trabalho VARCHAR(30),
+    sexo ENUM('F', 'M') NOT NULL,
+    tipo_pessoa ENUM('EMPREGADO', 'EMPREGADOR') NOT NULL,
+    PRIMARY KEY(id)
+);

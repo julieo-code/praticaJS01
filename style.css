@@ -1,0 +1,122 @@
+body {
+    background-color: rgb(110, 37, 207);
+    color: white;
+    font-family: lobster, lobster two, Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+h2 {
+    font-size: 15pt;
+}
+
+#cabecalho {
+    background-color: rgb(88, 29, 168);
+    height: 35px;
+    width: 100%;
+    text-align: right;
+    padding-top: 10px;
+}
+
+#cabecalho a {
+    margin-right: 100px;
+    color: white;
+    text-decoration: none;
+    font-size: 15pt;
+}
+
+#cabecalho a:hover {
+    font-size: 18pt;
+    transition: 0.5s;
+}
+
+#conteudo {
+    margin-left: 100px;
+    margin-top: 50px;
+    display: inline;
+    float: left;
+    
+}
+
+#conteudo h1 {
+    font-size: 35pt;
+    display: inline;
+}
+
+
+#conteudo h1:hover {
+    font-size: 38pt;
+    transition: 0.5s;
+}
+
+input::placeholder {
+    font-family: lobster, lobster two, Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.cadastro {
+    background-color: rgb(110, 37, 207);
+    width: 350px;
+    border-color: white;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    height: 35px;
+}
+.cadastro:read-write {
+    font-size: 20px;
+    color: white;
+    font-family: lobster, lobster two, Arial, Helvetica, sans-serif;
+    padding-left: 12px;
+    outline-style: none;
+}
+
+.sexo:hover {
+    display: inline;
+    transition: all 0.5s;
+    font-size: 20px;
+    
+}
+
+#iphone {
+    display: inline;
+    float: right;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+
+#img1 {
+    height: 520px;
+}
+
+#img2 {
+    height: 400px;
+}
+
+#img1:hover {
+    transition: all 1s;
+    transform: scale(1.02);
+}
+
+#img2:hover {
+    transition: all 1s;
+    transform: scale(1.02);
+}
+
+#submit {
+    border: none;
+    height: 40px;
+    width: 130px;
+    border-radius: 20px;
+    color: rgb(110, 37, 207);
+    background-color: rgb(210, 246, 252);
+    box-shadow: 2px 2px 6px rgb(0, 0, 0);
+    font-family: lobster, lobster two, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#submit:focus {
+    outline-style: none;
+    transition: all 0.5s;
+    transform: scale(1.08);
+}
